@@ -6,8 +6,8 @@ require 'cinch'
 
 bot = Cinch::Bot.new do
   configure do |c|
-    c.server   = "irc.freenode.org"
-    c.channels = ["#cinch-bots"]
+    c.server   = "irc.vibetalk.net"
+    c.channels = ["#vibetalk"]
   end
 
   helpers do

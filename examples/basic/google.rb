@@ -5,9 +5,9 @@ require 'cgi'
 
 bot = Cinch::Bot.new do
   configure do |c|
-    c.server   = "irc.freenode.net"
+    c.server   = "irc.vibetalk.net"
     c.nick     = "MrCinch"
-    c.channels = ["#cinch-bots"]
+    c.channels = ["#vibetalk"]
   end
 
   helpers do
